@@ -49,7 +49,7 @@ async def predict(feature: Feature):
         if prediction == 1:
             response["prediction"] = "今日は傘を持っていたほうがいいでしょう！"
         elif prediction == 0:
-            response["prediction"] = "今日は傘はいらないかもです！"
+            response["prediction"] = "今日は傘は不要でしょう！"
         else:
             response["prediction"] = "Prediction Failed"
 
